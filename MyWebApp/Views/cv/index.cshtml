@@ -1,7 +1,82 @@
-﻿
-@{
-    ViewData["Title"] = "cv";
-}
+﻿<DOCTYPE Html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		.page {
+			background-image: url(../images/stone-wall-background.jpg);
+			background-size: cover;
 
-<h2>cv</h2>
+		}
+
+		.container {
+			background: #ff6a0070;
+			border:double;
+		}
+		.my-photo {
+			background-image: url(../images/me.jpg);
+			background-size: cover;
+			height:200px;
+			width:200px;
+		}
+		.cv-table  {
+			width: 100%;
+			height:100%;
+			border-spacing: 5px;
+			border-collapse: collapse;
+		}
+		td {
+			font-size: 22px;
+			font-weight: bold;
+			color:#f3eded;
+
+		}
+
+		h2 {
+			height: 200px;
+			padding-left: 225px;
+			padding-top: 85px;
+			color: #f3eded;
+		}
+	</style>
+</head>
+<body class="page">
+	<div class="container">
+		<h1 style="text-align:center;border:double">My Resume</h1>
+
+
+		<div>
+			<img class="my-photo" style="float:left" />
+
+		</div>
+		<div >
+			<h2>Muhammad Nebras Taleb</h2>
+
+		</div>
+		<table class="cv-table">
+			<tr>
+				<td>Email :</td>
+				<td>MuhammadNebras.Taleb@ogr.iu.edu.tr</td>
+			</tr>
+
+			<tr>
+				<td>Skills :</td>
+				<td>Object-Oriented-Programming</td>
+				<td>GIT and Github</td>
+				<td>Android</td>
+				<td>JAVA</td>
+			</tr>
+			<tr>
+				<td>Phone Number : </td>
+				<td>+90 531 295 44 37</td>
+			</tr>
+			<tr>
+				<td>Address :</td>
+				<td>Istanbul - Avcilar - Ambarli Mah.</td>
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
 
