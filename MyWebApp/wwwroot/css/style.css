@@ -1,0 +1,52 @@
+body { font-family: Consolas, monaco, monospace;
+       font-size: 24px;
+       font-style: normal;
+       font-variant: normal;
+       font-weight: 700;
+       line-height: 26.4px;
+       background: pink;
+}
+
+.container{
+    border: solid 2px purple;
+    height: 100vh;
+    overflow: auto;
+    padding: 0px;
+
+}
+
+.body_div{
+    overflow: auto;
+    height: 98vh;
+
+}
+.head_div{
+    
+}
+
+.studentInfo_counter{
+padding: 8px;
+    float: right;
+    border: solid 1px purple;
+    background: rgb(212, 51, 212);
+}
+
+#full_name_text{
+color: purple;
+}
+
+#student_number_text{
+    color: purple;
+    text-align: center;
+}
+
+#counter_text{
+    font-size: 30px;
+    color:#04c404;
+    text-align: center;
+}
+
+.clickable_div{
+  position: absolute;
+
+}
